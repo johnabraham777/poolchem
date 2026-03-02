@@ -1,0 +1,45 @@
+# Ignore version control and IDE
+.git
+.gitignore
+.cursor
+.vscode
+*.swp
+*.swo
+*~
+
+# Ignore local env and secrets
+.env
+.env.*
+!.env.example
+
+# Ignore docs and dev artifacts (not needed in image)
+*.md
+!README.md
+__pycache__
+*.py[cod]
+*.egg-info
+.eggs
+.pytest_cache
+.coverage
+htmlcov
+.mypy_cache
+venv
+.venv
+
+# Optional: ignore large or unrelated folders if present
+# node_modules
+# static/uploads
+
+*.pdf
+*.eml
+*.xlsx
+*.docx
+*.pptx
+*.csv
+*.igs
+*.m
+*.asv
+*.ris
+*.bib
+*.htm
+*.html
